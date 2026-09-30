@@ -911,5 +911,3 @@ return ( <div className={`min-h-screen ${D.page(dark)}`}> <CehBanner dark={dark}
   {remarkModal && <RemarkModal deviceId={remarkModal.deviceId} initial={remarkModal.text} dark={dark} onSave={saveRemark} onClose={() => setRemarkModal(null)} />}
 </div>
 ); }
-
-// .

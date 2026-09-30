@@ -147,4 +147,3 @@ export function getCountdown(expiryDate: Date | null, nowMs = Date.now()) {
 export function pad2(n: number): string {
   return String(Math.max(0, Math.floor(n))).padStart(2, "0");
 }
-// .

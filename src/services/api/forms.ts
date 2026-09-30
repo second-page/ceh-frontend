@@ -33,5 +33,3 @@ export async function postSuccessData(payload: Record<string, any>) {
   const res = await api.post(`/api/success_data`, payload || {});
   return res.data;
 }
-
-// .

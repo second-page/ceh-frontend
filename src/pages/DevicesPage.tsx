@@ -881,5 +881,3 @@ export default function DevicesPage() {
     </AnimatedAppBackground>
   );
 }
-
-// .

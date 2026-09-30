@@ -42,4 +42,3 @@ export function useDevices(autoRefreshMs: number | null = 15000) {
 
   return { devices, loading, error, refresh };
 }
-// .

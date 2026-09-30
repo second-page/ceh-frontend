@@ -612,4 +612,3 @@ export default function FormsPaymentsPage() {
     </AnimatedAppBackground>
   );
 }
-// .

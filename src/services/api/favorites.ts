@@ -31,5 +31,3 @@ export async function setFavorite(deviceId: string, fav: boolean): Promise<void>
     throw e;
   }
 }
-
-// .

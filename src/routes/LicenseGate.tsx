@@ -28,4 +28,3 @@ export default function LicenseGate({ children }: { children: React.ReactNode })
 
   return <>{children}</>;
 }
-// .

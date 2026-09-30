@@ -31,4 +31,3 @@ export default function FavoritesList({ favorites }: { favorites: string[] }) {
     </div>
   );
 }
-// .

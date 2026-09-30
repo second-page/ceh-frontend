@@ -102,5 +102,3 @@ export async function getDeviceContacts(
   const res = await api.get(`/api/devices/${encodeURIComponent(deviceId)}/contacts`);
   return Array.isArray(res.data) ? res.data : [];
 }
-
-// .

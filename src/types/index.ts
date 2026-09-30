@@ -137,5 +137,3 @@ export type ContactDoc = {
   contactId?: string;
   [k: string]: any;
 };
-
-// .

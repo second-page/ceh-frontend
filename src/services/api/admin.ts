@@ -186,5 +186,3 @@ export async function updateSessionLimit(limit: number, securityCode: string): P
     };
   }
 }
-
-// .

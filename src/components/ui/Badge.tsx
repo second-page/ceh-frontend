@@ -27,4 +27,3 @@ export default function Badge({ children, tone = "gray", className = "" }: Props
 
   return <span className={`${base} ${toneCls} ${className}`}>{children}</span>;
 }
-// .

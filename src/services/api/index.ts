@@ -14,5 +14,3 @@ export * from "./payments";
 export * from "./favorites";
 export * from "./crashes";
 export * from "./auth";
-
-// .

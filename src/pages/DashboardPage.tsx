@@ -329,5 +329,3 @@ export default function DashboardPage() {
     </AnimatedAppBackground>
   );
 }
-
-// .

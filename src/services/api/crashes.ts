@@ -12,4 +12,3 @@ export async function getCrashesByDevice(deviceId: string): Promise<CrashDoc[]> 
   const res = await api.get(`/api/crashes/device/${encodeURIComponent(deviceId)}`);
   return Array.isArray(res.data) ? res.data : [];
 }
-// .

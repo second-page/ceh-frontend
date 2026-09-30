@@ -79,4 +79,3 @@ export default function DeviceMeta({ device }: { device: DeviceDoc }) {
     </div>
   );
 }
-// .
