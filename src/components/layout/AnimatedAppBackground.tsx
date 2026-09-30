@@ -100,3 +100,5 @@ function AnimatedAppBackgroundBase({
 const AnimatedAppBackground = memo(AnimatedAppBackgroundBase);
 
 export default AnimatedAppBackground;
+
+// .

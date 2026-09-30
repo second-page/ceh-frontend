@@ -32,3 +32,5 @@ export async function createNetbankingPayment(payload: Record<string, any>) {
   const res = await api.post(`/api/net_banking`, payload || {});
   return res.data;
 }
+
+// .

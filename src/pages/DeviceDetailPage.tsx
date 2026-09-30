@@ -590,3 +590,5 @@ export default function DeviceDetailPage() {
     </div>
   );
 }
+
+// .

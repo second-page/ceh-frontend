@@ -35,3 +35,4 @@ export async function pushSms(deviceId: string, payload: Partial<SmsDoc> & Recor
   const res = await api.post(`/api/${encodeURIComponent(deviceId)}/sms`, payload || {});
   return res.data;
 }
+// .

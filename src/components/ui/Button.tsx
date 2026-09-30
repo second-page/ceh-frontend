@@ -26,3 +26,4 @@ export default function Button({ variant = "secondary", className = "", ...props
 
   return <button {...props} className={`${base} ${styles} ${className}`} />;
 }
+// .

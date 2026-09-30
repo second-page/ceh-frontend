@@ -48,3 +48,4 @@ export function useWs(handler?: Handler) {
     sendCmd: (name: string, payload: Record<string, any> = {}) => wsService.sendCmd(name, payload),
   };
 }
+// .
